@@ -1,0 +1,66 @@
+
+.app-icon
+{
+    height: 25px;
+    padding: 0px 30px;
+}
+.first-block
+{
+    grid-area: first-block;
+}
+.second-block
+{
+    grid-area: second-block;
+}
+.third-block
+{
+    grid-area: third-block;
+}
+.fourth-block
+{
+    grid-area: fourth-block;
+}
+.first-block > h4 
+{
+    font-weight: 400;
+    margin-top: 20px;
+    padding-left: 25px;
+}
+.second-block > h4> a, .third-block > h4 > a, .fourth-block > h4>a
+{
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.footer-line
+{
+    grid-area: footer-section;
+}
+.footer-line > h4
+{
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.footer-line > h4 > a 
+{
+    text-decoration: none;
+    color: rgb(111, 110, 110);
+    font-weight: 300;
+    padding: 0px 20px;
+}
+.footer-section
+{
+    color: white;
+    background-color: black;
+    width: 100%;
+    min-height: 40vh;
+    display: grid;
+    grid-template-areas: "first-block first-block second-block third-block fourth-block"
+                        "footer-section footer-section footer-section footer-section footer-section";
+    height: max-content;
+    padding: 30px;
+}
