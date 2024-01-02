@@ -21,7 +21,9 @@ export default function RootLayout({
       
       <body >
         <Header/>
+          <div style={{minHeight:'max-content'}}>
           {children}
+          </div>
         <Footer/>
       </body>
     </html>
