@@ -1,5 +1,7 @@
 "use client"
 import React from 'react'
+import "../app/styles/Header.css";
+import { DefaultButton } from '@fluentui/react/lib/Button';
 
 export default function Header() {
   return (
@@ -14,6 +16,7 @@ export default function Header() {
                 <li>About us</li>
             </ul>
         </nav>
+        <DefaultButton text="Login" style={{position:'absolute', right:'20px'}} />
     </div>
   )
 }

@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 720px) {
+    nav, h3
+    {
+        display: none;
+    }
+    .header-image
+    {
+        border: unset;
+        text-align: center;
+    }
+  }
